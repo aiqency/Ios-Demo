@@ -6,5 +6,5 @@ target 'IosDemo' do
   swift_version = "4.2"
   pod 'Alamofire', '~> 4.1.0'
   pod 'SwiftyJSON', '~> 3.0'
-  pod 'Kingfisher'
+  pod 'Kingfisher',  '~> 5.0.0'
 end

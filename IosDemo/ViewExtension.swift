@@ -19,6 +19,14 @@ extension UIView {
         return self.superview?.convert(self.frame.origin, to: nil)
     }
     
+    var width: CGFloat? {
+        return self.frame.width
+    }
+    
+    var height: CGFloat? {
+        return self.frame.height
+    }
+    
     func getViewSize() -> CGSize {
         return CGSize(width: self.frame.width, height: self.frame.height)
     }

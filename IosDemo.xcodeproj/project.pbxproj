@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26753A5622597C350019548D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26753A5522597C350019548D /* AppDelegate.swift */; };
-		26753A5822597C350019548D /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26753A5722597C350019548D /* ContactListViewController.swift */; };
+		26753A5822597C350019548D /* ContactListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26753A5722597C350019548D /* ContactListVc.swift */; };
 		26753A5B22597C350019548D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26753A5922597C350019548D /* Main.storyboard */; };
 		26753A5D22597C360019548D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26753A5C22597C360019548D /* Assets.xcassets */; };
 		26753A6022597C360019548D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26753A5E22597C360019548D /* LaunchScreen.storyboard */; };
@@ -16,13 +16,14 @@
 		269E1943225A1F6C00E06CCA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E1942225A1F6C00E06CCA /* TableViewCell.swift */; };
 		26E4A49D225B72FA0060F4C2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A49C225B72FA0060F4C2 /* ViewExtension.swift */; };
 		26E4A49F225B73460060F4C2 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A49E225B73460060F4C2 /* Contact.swift */; };
+		6209DF142586E35A006DDD81 /* ContactDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6209DF132586E35A006DDD81 /* ContactDetailVc.swift */; };
 		64459BA40BA92395EABCEC35 /* Pods_IosDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66272CFB71413F57606A8487 /* Pods_IosDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26753A5222597C350019548D /* IosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26753A5522597C350019548D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26753A5722597C350019548D /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		26753A5722597C350019548D /* ContactListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListVc.swift; sourceTree = "<group>"; };
 		26753A5A22597C350019548D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26753A5C22597C360019548D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26753A5F22597C360019548D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +34,7 @@
 		26B49ED9225BD12A00DA2BE6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E4A49C225B72FA0060F4C2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		26E4A49E225B73460060F4C2 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6209DF132586E35A006DDD81 /* ContactDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailVc.swift; sourceTree = "<group>"; };
 		65738535F46F353775425D5C /* Pods-IosDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosDemo.debug.xcconfig"; path = "Target Support Files/Pods-IosDemo/Pods-IosDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		66272CFB71413F57606A8487 /* Pods_IosDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97F14319265A5BAFD9E8A2D /* Pods-IosDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosDemo.release.xcconfig"; path = "Target Support Files/Pods-IosDemo/Pods-IosDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,12 +75,13 @@
 			children = (
 				26753A6122597C360019548D /* Info.plist */,
 				26753A6722597C800019548D /* Support Files */,
-				26753A5722597C350019548D /* ContactListViewController.swift */,
+				26753A5722597C350019548D /* ContactListVc.swift */,
 				26753A5922597C350019548D /* Main.storyboard */,
 				26753A6822597C980019548D /* Restclient.swift */,
 				269E1942225A1F6C00E06CCA /* TableViewCell.swift */,
 				26E4A49C225B72FA0060F4C2 /* ViewExtension.swift */,
 				26E4A49E225B73460060F4C2 /* Contact.swift */,
+				6209DF132586E35A006DDD81 /* ContactDetailVc.swift */,
 			);
 			path = IosDemo;
 			sourceTree = "<group>";
@@ -238,8 +241,9 @@
 			files = (
 				26E4A49F225B73460060F4C2 /* Contact.swift in Sources */,
 				26753A6922597C980019548D /* Restclient.swift in Sources */,
+				6209DF142586E35A006DDD81 /* ContactDetailVc.swift in Sources */,
 				269E1943225A1F6C00E06CCA /* TableViewCell.swift in Sources */,
-				26753A5822597C350019548D /* ContactListViewController.swift in Sources */,
+				26753A5822597C350019548D /* ContactListVc.swift in Sources */,
 				26753A5622597C350019548D /* AppDelegate.swift in Sources */,
 				26E4A49D225B72FA0060F4C2 /* ViewExtension.swift in Sources */,
 			);
